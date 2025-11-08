@@ -62,7 +62,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '&EQUAL'
+  - {t: '=', s: +}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   layer1:
