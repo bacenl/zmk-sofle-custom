@@ -56,15 +56,15 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-esc$$
-  - layer1
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - layer1
+  - $$mdi:keyboard-esc$$
   layer1:
   - {t: '`', s: '~'}
   - F1
@@ -122,13 +122,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   layer2:
   - '~'
