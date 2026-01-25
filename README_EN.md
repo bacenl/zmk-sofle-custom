@@ -3,6 +3,14 @@
 - [Chinese](README.md)
 - [English](README_EN.md)
 
+## How to Bluetooth
+
+## How to flash
+1. Build the keymap via GitHub Actions
+2. Plug in the keyboard
+3. Double tap the RESET button
+4. Drag and drop the respective .uf2 files into the left / right
+
 ## Update List
 
 - 2024/12/21
@@ -25,3 +33,4 @@ For 3D printed model files or any issues and malfunctions with the keyboard, ple
 ## Sofle Keymap
 
 ![Sofle键位图](keymap-drawer/eyelash_sofle.svg)
+
