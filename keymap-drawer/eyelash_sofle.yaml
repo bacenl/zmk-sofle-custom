@@ -58,8 +58,8 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
+  - '&mkp SPACE'
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '-', s: _}
   - {t: '=', s: +}
