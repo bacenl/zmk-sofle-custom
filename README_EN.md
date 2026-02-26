@@ -7,9 +7,18 @@
 
 ## How to flash
 1. Build the keymap via GitHub Actions
-2. Plug in the keyboard
-3. Double tap the RESET button
-4. Drag and drop the respective .uf2 files into the left / right
+1. Double tap the RESET button (Don't need to flick the other switch)
+1. Plug in the keyboard
+1. Drag and drop the respective .uf2 files into the left / right
+
+### On Linux
+
+```
+lsblk                       # Find the name of the keyboard
+sudo mount /dev/sdX1 /mnt   # replace sdX with the small drive that lsblk showed
+sudo cp eyelash_sofle_studio_left.uf2 /mnt/
+sudo cp ~/Downloads/firmware/my-firmware.uf2 /mnt/
+```
 
 ## Update List
 
