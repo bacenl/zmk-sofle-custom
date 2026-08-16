@@ -3,6 +3,12 @@
 - [Chinese](README.md)
 - [English](README_EN.md)
 
+## Info
+
+Switch up = off
+Switch down = on
+Button = bluetooth pairing
+
 ## How to Bluetooth
 
 ## How to flash
